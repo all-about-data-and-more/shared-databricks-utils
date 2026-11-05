@@ -1,6 +1,6 @@
 # shared-databricks-utils
 
-[![CI](https://github.com/modern-data-engineering-lab/shared-databricks-utils/actions/workflows/ci.yml/badge.svg)](https://github.com/modern-data-engineering-lab/shared-databricks-utils/actions/workflows/ci.yml)
+[![CI](https://github.com/all-about-data-and-more/shared-databricks-utils/actions/workflows/ci.yml/badge.svg)](https://github.com/all-about-data-and-more/shared-databricks-utils/actions/workflows/ci.yml)
 
 Common utilities for Databricks/PySpark jobs: logging, config loading, schema
 validation, and retry/backoff — shared across our Databricks repos so each one
@@ -22,13 +22,13 @@ copy-pasting that into every repo, it lives here once, tested and versioned.
 ## Install
 
 ```bash
-pip install git+https://github.com/modern-data-engineering-lab/shared-databricks-utils.git
+pip install git+https://github.com/all-about-data-and-more/shared-databricks-utils.git
 ```
 
 Pin to a specific commit or tag for reproducible builds:
 
 ```bash
-pip install git+https://github.com/modern-data-engineering-lab/shared-databricks-utils.git@<tag-or-sha>
+pip install git+https://github.com/all-about-data-and-more/shared-databricks-utils.git@<tag-or-sha>
 ```
 
 For local development:
